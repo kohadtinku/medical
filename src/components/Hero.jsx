@@ -1,27 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import img from "../assets/img1.jpg";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <div className="hero-container">
       <div className="hero-content">
         <div className="hero-heading ">
           <div className="hero-title">
-            <h1 className="font-serif">
+            <h1 className="font-serif" data-aos="fade-right">
               Better Care For Your <br />{" "}
               <span style={{ color: "green" }}>Health</span>
-                {/* <span className="text-2xl text-green-500 font-bold ml-5">Import Now</span> */}
+              {/* <span className="text-2xl text-green-500 font-bold ml-5">Import Now</span> */}
             </h1>
           </div>
 
-          <p className="text-black font-serif">
+          <p className="text-black font-serif" data-aos="fade-right">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequatur itaque sint ratione odio, in, esse quo minus quisquam
             maxime ullam facilis libero assumenda. Maiores nisi odit suscipit,
             ipsam molestias optio?
           </p>
         </div>
-        <div class="relative w-[100vw] max-w-xl mx-auto bg-white rounded-sm">
+        <div
+          class="relative w-[100vw] max-w-xl mx-auto bg-white rounded-sm"
+          data-aos="fade-right"
+        >
           <input
             placeholder="Search here..."
             class="rounded-sm w-full h-16 bg-transparent py-2 pl-8 pr-32 outline-none border-2 border-gray-100 shadow-md hover:outline-none focus:ring-teal-200 focus:border-teal-200"
@@ -51,7 +62,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="img">
+      <div className="img" data-aos="fade-left">
         <img src={img} alt="" />
       </div>
     </div>

@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img from "../assets/tools.avif";
 import img1 from "../assets/security.avif";
 import img2 from "../assets/post.avif";
 import img3 from "../assets/layer.avif";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Info = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <div className="main py-5 px-5">
       <div className="flex justify-between flex-wrap gap-14 mx-10 py-5 ">
-        <div class="card">
+        <div class="card" data-aos="fade-down">
           <img src={img} alt="" />
           <h1 className="font-semibold">Millions of business offerings</h1>
           <p>
@@ -16,7 +21,7 @@ const Info = () => {
             offerings worldwide.
           </p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-down">
           <img src={img1} alt="" />
           <h1 className="font-semibold">Assured quality and transactions</h1>
           <p>
@@ -24,7 +29,7 @@ const Info = () => {
             protected from payment to delivery.
           </p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-down">
           <img src={img2} alt="" />
           <h1 className="font-semibold">One-stop trading solution</h1>
           <p>
@@ -32,7 +37,7 @@ const Info = () => {
             payment, and fulfillment.
           </p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-down">
           <img src={img3} alt="" />
           <h1 className="font-semibold">Tailored trading experience</h1>
           <p>

@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Ad4 = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
 <>
 <div class="bg-gray-100 px-6 py-12 font-[sans-serif]">
       <div class="container mx-auto p-6 bg-white rounded-lg shadow-md">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div>
+          <div data-aos="fade-right">
             <img src="https://readymadeui.com/management-img.webp" alt="Image" class="rounded-md object-cover w-full h-full" />
           </div>
-          <div>
+          <div data-aos="fade-down">
             <h2 class="text-3xl font-extrabold text-purple-700 mb-4">Immerse Yourself in Creativity</h2>
             <p class="text-gray-700 text-sm leading-6">
               Unleash your imagination and explore a world of endless possibilities. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

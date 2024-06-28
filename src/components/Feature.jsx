@@ -1,16 +1,21 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Feature = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1500 });
+      }, []);
+    
   return (
 <>
 <div class="max-w-6xl mx-auto text-[#333] font-[sans-serif] py-10 ">
-      <div class="text-center max-w-2xl mx-auto">
-        <h2 class="text-3xl font-extrabold text-center mb-4">Our Exclusive Features</h2>
+      <div class="text-center max-w-2xl mx-auto" data-aos="zoom-in">
+        <h2 class="text-3xl font-extrabold text-center mb-4" >Our Exclusive Features</h2>
         <p class="text-sm">Unlock a world of possibilities with our exclusive features. Explore how our unique offerings can transform your journey and empower you to achieve more.</p>
       </div>
       <div class="mt-14 bg-gray-50 lg:p-10 p-6 rounded-md">
         <div class="grid md:grid-cols-2 items-center gap-16">
-          <div>
+          <div data-aos="fade-right">
             <h3 class="text-2xl font-extrabold mb-4">Customization</h3>
             <p class="text-sm">Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad consequat id. Dolore et sint mollit in nisi tempor culpa consectetur.</p>
             <ul class="space-y-4 mt-8">
@@ -40,7 +45,7 @@ const Feature = () => {
               </li>
             </ul>
           </div>
-          <img src="https://readymadeui.com/cardImg.webp" class="w-full object-contain rounded-md" />
+          <img src="https://readymadeui.com/cardImg.webp" class="w-full object-contain rounded-md" data-aos="fade-left"/>
         </div>
       </div>
     </div>

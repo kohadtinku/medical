@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Stats = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
 
 
-      <div className="stats c-PJLV c-bXbWpx c-bXbWpx-lfylVv-direction-row c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-igpXQDG-css">
+      <div className="stats c-PJLV c-bXbWpx c-bXbWpx-lfylVv-direction-row c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-igpXQDG-css" >
         {/* First Item */}
-        <div className="sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css">
+        <div className="sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css" data-aos="fade-down" >
           <div className="c-PJLV c-bXbWpx c-bXbWpx-icaHzCe-css">
             <span
               style={{
@@ -123,7 +129,7 @@ const Stats = () => {
 
         {/* Repeat similar blocks for the other items */}
         {/* Second Item */}
-        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css">
+        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css" data-aos="fade-down">
           <div className="c-PJLV c-bXbWpx c-bXbWpx-icaHzCe-css">
             <span
               style={{
@@ -238,7 +244,7 @@ const Stats = () => {
         </div>
 
         {/* Third Item */}
-        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css">
+        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css" data-aos="fade-down">
           <div className="c-PJLV c-bXbWpx c-bXbWpx-icaHzCe-css">
             <span
               style={{
@@ -353,7 +359,7 @@ const Stats = () => {
         </div>
 
         {/* Fourth Item */}
-        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css">
+        <div className=" sub-stats c-PJLV c-bXbWpx c-bXbWpx-joLzpF-justify-center c-bXbWpx-joJbDg-align-center c-bXbWpx-ifEzAqT-css" data-aos="fade-down">
           <div className="c-PJLV c-bXbWpx c-bXbWpx-icaHzCe-css">
             <span
               style={{

@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Stats1 = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500});
+  }, []);
+
   return (
 <>
 
     <div className="card1 w-full">
         
-      <div className="left">
+      <div className="left" data-aos="fade-right">
           <h2>Get <span className="highlight">insights</span> that help your business grow.</h2>
           <p className="para">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
          
@@ -17,7 +23,7 @@ const Stats1 = () => {
           </div>
       </div>
       
-      <div className="right overlay"></div>
+      <div className="right overlay" data-aos="zoom-in"></div>
     
     </div>
 

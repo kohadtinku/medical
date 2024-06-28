@@ -1,14 +1,19 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
 <footer class="bg-[#f2eded] py-12 px-10 font-sans tracking-wide">
       <div class="lg:max-w-[50%] mx-auto text-center">
-        <h3 class="text-3xl font-bold text-gray-800">Newsletter</h3>
-        <p class="text-sm mt-6 text-gray-500">Subscribe to our newsletter and stay up to date with the latest news,
+        <h3 class="text-3xl font-bold text-gray-800" data-aos="zoom-in">Newsletter</h3>
+        <p class="text-sm mt-6 text-gray-500" data-aos="fade-right">Subscribe to our newsletter and stay up to date with the latest news,
           updates, and exclusive offers. Get valuable insights. Join our community today!</p>
 
-        <div class="bg-[#dddddd] flex px-2 py-1.5 rounded-full text-left mt-10">
+        <div class="bg-[#dddddd] flex px-2 py-1.5 rounded-full text-left mt-10"  data-aos="fade-down">
           <input type='email' placeholder='Enter your email' class="w-full outline-none bg-transparent text-sm pl-4" />
           <button type='button'
             class="bg-gray-600 hover:bg-gray-700 text-white text-sm rounded-full px-5 py-2.5 ml-4 transition-all">Submit</button>
@@ -19,13 +24,13 @@ const Footer = () => {
 
       <div class="grid max-sm:grid-cols-1 max-lg:grid-cols-2 lg:grid-cols-4 gap-8">
 
-        <div>
+        <div  data-aos="fade-down">
           <h4 class="text-lg font-bold mb-6 text-gray-800">About Us</h4>
           <p class="text-gray-500 mb-2 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida,
             mi eu pulvinar cursus, sem elit interdum mauris.</p>
         </div>
 
-        <div>
+        <div  data-aos="fade-down">
           <h4 class="text-lg font-bold mb-6 text-gray-800">Services</h4>
           <ul class="space-y-4">
             <li><a href="javascript:void(0)" class="text-gray-500 hover:text-gray-800 text-[15px]">Web
@@ -38,7 +43,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div  data-aos="fade-down">
           <h4 class="text-lg font-bold mb-6 text-gray-800">Resources</h4>
           <ul class="space-y-4">
             <li><a href="javascript:void(0)" class="text-gray-500 hover:text-gray-800 text-[15px]">Webinars</a>
@@ -51,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div  data-aos="fade-down">
           <h4 class="text-lg font-bold mb-6 text-gray-800">About Us</h4>
           <ul class="space-y-4">
             <li><a href="javascript:void(0)" class="text-gray-500 hover:text-gray-800 text-[15px]">Our Story</a>

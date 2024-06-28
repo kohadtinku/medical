@@ -1,10 +1,15 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Ad = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
 <>
 <div class="bg-gradient-to-r from-blue-700 to-[#B06AB3] font-sans px-6 ">
-      <div class="container mx-auto flex flex-col justify-center items-center text-center">
+      <div class="container mx-auto flex flex-col justify-center items-center text-center" data-aos="zoom-in">
         <h2 class="text-white sm:text-4xl text-3xl font-bold mb-4">Discover Our New Collection</h2>
         <p class="text-white text-base text-center mb-8">Elevate your style with our latest arrivals. Shop now and enjoy exclusive discounts!</p>
 

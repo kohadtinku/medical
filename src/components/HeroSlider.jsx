@@ -1,15 +1,22 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 // import "./styles.css";
 
 import { Autoplay, Navigation } from "swiper/modules";
 import sliderData from "../data";
 const HeroSlider = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
       <Swiper
@@ -24,7 +31,7 @@ const HeroSlider = () => {
           return (
             <SwiperSlide key={id}>
               <div className="container">
-                <div className="hero_item_txt">
+                <div className="hero_item_txt" data-aos="fade-right">
                   <h3 className="text-4xl text-white">{title}</h3>
                   {/* <h3 className="text-2xl">{price}</h3> */}
                   <p className="text-3xl text-white">{desc}</p>
