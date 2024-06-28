@@ -25,9 +25,9 @@ const HeroSlider = () => {
             <SwiperSlide key={id}>
               <div className="container">
                 <div className="hero_item_txt">
-                  <h3 className="text-4xl">{title}</h3>
+                  <h3 className="text-4xl text-white">{title}</h3>
                   {/* <h3 className="text-2xl">{price}</h3> */}
-                  <p className="text-3xl">{desc}</p>
+                  <p className="text-3xl text-white">{desc}</p>
                   <button className="bg-orange-400 p-4 w-[150px] rounded-full m-3">Shop Now</button>
                 </div>
                 <figure className="hero_item_img">
