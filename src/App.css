@@ -388,7 +388,8 @@
 }
 @media (max-width: 425px) {
   .custom_map {
-    width: 300px;
+    width: 360px !important;
+    height: 500px !important;
   }
 }
 
