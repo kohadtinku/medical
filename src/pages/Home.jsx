@@ -15,26 +15,30 @@ import Ad2 from "../components/Ad2";
 import Ad3 from "../components/Ad3";
 import Blog from "../components/Blog";
 import Ad4 from "../components/Ad4";
+import Testimonial1 from "../components/Testimonial1";
+import Import_Export from "../components/Import_Export";
 
 const Home = () => {
   return (
     <>
-    <Top/>
+      <Top />
       <Header />
-      <Hero/>
-      <Ad2/>
-      <Stats/>
-      <Feature/>
-      <HeroSlider/>
-      <Ad/>
-      <Info/>
-      <Ad4/>
-      <Testimonial/>
-      <Stats1/>
-      <Blog/>
-      <Ad3/>
-      <Contact/>
-      <Footer/>
+      <Hero />
+      <Ad2 />
+      <Import_Export/>
+      <Stats />
+      <Feature />
+      <HeroSlider />
+      <Testimonial1/>
+      <Ad />
+      <Info />
+      <Ad4 />
+      <Testimonial />
+      <Stats1 />
+      <Blog />
+      <Ad3 />
+      <Contact />
+      <Footer />
     </>
   );
 };
