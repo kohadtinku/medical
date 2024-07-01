@@ -3,7 +3,7 @@ import React from 'react'
 const Top = () => {
   return (
 <>
-<div class="flex items-center max-md:flex-col gap-6 bg-gradient-to-tr from-blue-700 to-purple-400 text-white px-6 py-3.5 rounded font-[sans-serif]">
+<div class="flex items-center max-md:flex-col gap-6 bg-gradient-to-tr from-blue-700 to-purple-400 text-white px-6 py-3.5 rounded font-[sans-serif] absolute w-full top-16">
       <p class="text-base flex-1 max-md:text-center">Don't miss out on our amazing summer sale! Get up to 50% off on a wide range of products. Make the most of your summer shopping.</p>
 
       <div>

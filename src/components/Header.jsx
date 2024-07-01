@@ -27,7 +27,7 @@ const Header = () => {
 
 
     </div> */}
-<Top/>
+
       <div className="flex flex-col items-center justify-center  z-999">
         <div className="flex flex-col">
           {/* Page Scroll Progress */}
@@ -51,7 +51,6 @@ const Header = () => {
                     />
                   </h3>
                 </a>
-        
               </div>
             </div>
 
@@ -113,6 +112,9 @@ const Header = () => {
             </div>
           </nav>
         </div>
+        {/* <div className="top w-full absolute top-16">
+          <Top />
+        </div> */}
       </div>
     </>
   );

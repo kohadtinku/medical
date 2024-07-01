@@ -21,8 +21,9 @@ import Import_Export from "../components/Import_Export";
 const Home = () => {
   return (
     <>
-      <Top />
+      {/* <Top /> */}
       <Header />
+      {/* <Top/> */}
       <Hero />
       <Ad2 />
       <Import_Export/>

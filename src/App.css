@@ -398,3 +398,16 @@ width: 100%;
       padding-top: 3em;
   }
 }
+
+
+
+@media (max-width: 425px){
+.custom_contact{
+  width: 300px;
+}
+}
+@media (max-width: 425px){
+.custom_map{
+  width: 300px;
+}
+}

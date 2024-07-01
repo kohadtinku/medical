@@ -9,14 +9,14 @@ const Contact = () => {
   return (
     <>
       <div class="grid md:grid-cols-2 mb-10 gap-16 items-center  relative overflow-hidden p-8 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl max-w-6xl mx-auto bg-white mt-4 font-[sans-serif] before:absolute before:right-0 before:w-[300px] before:h-full max-md:before:hidden">
-        <div data-aos="fade-right" className=" ">
+        <div data-aos="fade-right" className="custom_contact ">
           <h2 class="text-gray-800 text-3xl font-extrabold">Get In Touch</h2>
           <p class="text-sm text-gray-500 mt-4 leading-relaxed">
             Have a specific inquiry or looking to explore new opportunities? Our
             experienced team is ready to engage with you.
           </p>
 
-          <form>
+          <form className="custom_contact">
             <div class="space-y-4 mt-8">
               <input
                 type="text"
@@ -119,8 +119,8 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div class="z-10 relative h-full max-md:min-h-[250px]">
-          <iframe
+        <div class="z-10 relative h-full max-md:min-h-[250px] custom_map">
+          <iframe className="custom_map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14882.82315757389!2d79.06278328203923!3d21.16410369882666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0fcf85ee143%3A0x8a9261908197e622!2sSadar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1719575985184!5m2!1sen!2sin"
             style={{ border: 0, width: 600, height: 700 }}
             allowfullscreen=""
