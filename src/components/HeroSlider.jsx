@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import '../App.css'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,10 +31,10 @@ const HeroSlider = () => {
           return (
             <SwiperSlide key={id}>
               <div className="container">
-                <div className="hero_item_txt" data-aos="fade-right">
-                  <h3 className="text-4xl text-white">{title}</h3>
+                <div className="hero_item_txt c_slider" data-aos="fade-right">
+                  <h3 className="text-4xl text-white c_slider">{title}</h3>
                   {/* <h3 className="text-2xl">{price}</h3> */}
-                  <p className="text-3xl text-white">{desc}</p>
+                  <p className="text-3xl text-white c_slider">{desc}</p>
                   <button className="bg-orange-400 p-4 w-[150px] rounded-full m-3">Shop Now</button>
                 </div>
                 <figure className="hero_item_img">
