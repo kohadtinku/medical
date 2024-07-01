@@ -412,7 +412,8 @@
   .hero-heading p{
     width: 50vw;
   }
-  .c_in input{
+  .c_in {
+    display: none;
     position: absolute;
     width: 70%;
     /* margin-right: 10%;
