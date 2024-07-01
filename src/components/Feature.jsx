@@ -45,7 +45,7 @@ const Feature = () => {
               </li>
             </ul>
           </div>
-          <img src="https://readymadeui.com/cardImg.webp" class="w-full object-contain rounded-md" data-aos="fade-left"/>
+          <img src="https://readymadeui.com/cardImg.webp" class="w-full object-contain rounded-md" data-aos="fade-down"/>
         </div>
       </div>
     </div>
