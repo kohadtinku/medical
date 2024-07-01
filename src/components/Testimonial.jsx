@@ -7,7 +7,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div class="mt-4 font-[sans-serif] max-w-6xl max-md:max-w-lg mx-auto py-10 mb-20">
+    <div class="mt-4 font-[sans-serif] max-w-6xl max-md:max-w-lg  py-10 mb-20 mx-10 px-10">
       <div class="max-w-2xl" data-aos="fade-down">
         <h2 class="text-gray-800 text-3xl font-extrabold">
           What our happy client say
