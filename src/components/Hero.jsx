@@ -11,7 +11,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero-container">
+    <div className="hero-container c_hero">
       <div className="hero-content">
         <div className="hero-heading ">
           <div className="hero-title">
@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          class="relative w-[100vw] max-w-xl mx-auto bg-white rounded-sm"
+          class="relative w-[100vw] max-w-xl mx-auto bg-white rounded-sm c_in"
           data-aos="fade-right"
         >
           <input
