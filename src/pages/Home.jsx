@@ -25,9 +25,9 @@ const Home = () => {
       <Header />
       {/* <Top/> */}
       <Hero />
-      <Ad2 />
-      <Import_Export/>
+      {/* <Ad2 /> */}
       <Stats />
+      <Import_Export/>
       <Feature />
       {/* <HeroSlider /> */}
       <Testimonial1/>
