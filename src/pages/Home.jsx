@@ -29,7 +29,7 @@ const Home = () => {
       <Import_Export/>
       <Stats />
       <Feature />
-      <HeroSlider />
+      {/* <HeroSlider /> */}
       <Testimonial1/>
       <Ad />
       <Info />

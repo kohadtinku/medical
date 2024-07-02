@@ -15,21 +15,18 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-heading ">
           <div className="hero-title">
-            <h1 className="font-serif" data-aos="fade-right">
+            <h1 className="font-serif text-6xl text-white font-bold" data-aos="fade-right">
               Better Care For Your <br />{" "}
               <span style={{ color: "green" }}>Health</span>
               {/* <span className="text-2xl text-green-500 font-bold ml-5">Import Now</span> */}
             </h1>
           </div>
 
-          <p className="text-black font-serif" data-aos="fade-right">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur itaque sint ratione odio, in, esse quo minus quisquam
-            maxime ullam facilis libero assumenda. Maiores nisi odit suscipit,
-            ipsam molestias optio?
+          <p className="w-[550px] font-serif text-[20px] text-white"  data-aos="fade-right">
+          In an increasingly globalized world, the demand for high-quality pharmaceutical products has never been greater. As a leading pharmaceutical exporter, we are dedicated to delivering innovative, safe, and effective medicines to healthcare providers and patients worldwide.
           </p>
         </div>
-        <div
+        {/* <div
           class="relative w-[100vw] max-w-xl mx-auto bg-white rounded-sm c_in"
           data-aos="fade-right"
         >
@@ -60,10 +57,10 @@ const Hero = () => {
             </svg>
             Search
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="img" data-aos="fade-left">
-        <img src={img} alt="" />
+        {/* <img src={img} alt="" /> */}
       </div>
     </div>
   );

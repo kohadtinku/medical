@@ -22,10 +22,10 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("./assets/back.jpg");
+  background-image: url("./assets/back2.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   z-index: -1;
 }
 
@@ -42,9 +42,9 @@
   margin-bottom: 2rem;
   gap: 20px;
 }
-.hero-heading p {
+/* .hero-heading p {
   width: 400px;
-}
+} */
 
 .hero-title {
   font-size: 2rem;
@@ -383,7 +383,7 @@
 
 @media (max-width: 425px) {
   .custom_contact {
-    width: 300px;
+    width: 350px;
   }
 }
 @media (max-width: 425px) {
@@ -436,4 +436,14 @@
   gap: 0;
   font-size: 20px !important;
 }
+}
+
+.c_import{
+  background: url('./assets/back2.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.8; */
+  z-index: -1;
 }
