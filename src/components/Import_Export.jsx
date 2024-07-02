@@ -9,7 +9,7 @@ const Import_Export = () => {
             Discover Our Exclusive Features
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-md:max-w-md mx-auto">
-            <div class="bg-white  rounded-lg overflow-hidden shadow-lg">
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const Import_Export = () => {
                   />
                 </svg>
                 <h3 class="text-xl font-semibold mb-2">Import</h3>
-                <p class="text-gray-500 text-sm">
+                <p class="text-white text-sm">
                   Importing medicines involves obtaining necessary licenses and
                   registrations from health authorities, such as an import
                   license and a drug registration certificate. Importers must
@@ -40,7 +40,8 @@ const Import_Export = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +75,7 @@ const Import_Export = () => {
                   </g>
                 </svg>
                 <h3 class="text-xl font-semibold mb-2">Security</h3>
-                <p class="text-gray-500 text-sm">
+                <p class="text-white text-sm">
                   Ensuring security in medicine importation involves stringent
                   regulatory compliance, including obtaining licenses and
                   registrations from health authorities. Importers must maintain
@@ -88,7 +89,7 @@ const Import_Export = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +113,7 @@ const Import_Export = () => {
                   </g>
                 </svg>
                 <h3 class="text-xl font-semibold mb-2">Export</h3>
-                <p class="text-gray-500 text-sm">
+                <p class="text-white text-sm">
                   Ensuring security in medicine exportation involves strict
                   adherence to regulatory requirements, including obtaining
                   export licenses and necessary certifications. Accurate and
