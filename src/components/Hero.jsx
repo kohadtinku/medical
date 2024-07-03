@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-heading ">
           <div className="hero-title">
-            <h1 className="font-serif text-6xl text-white font-bold" data-aos="fade-right">
+            <h1 className="font-serif text-6xl text-black font-bold" data-aos="fade-right">
               Better Care For Your <br />{" "}
               <span style={{ color: "green" }}>Health</span>
               {/* <span className="text-2xl text-green-500 font-bold ml-5">Import Now</span> */}

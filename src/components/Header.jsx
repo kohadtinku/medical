@@ -375,7 +375,7 @@ const Header = () => {
             </div>
 
             {/* Links Section for larger screens */}
-            <div className={`items-center hidden space-x-8 lg:flex ${isScrolled?"text-black":"text-white"}`}>
+            <div className={`items-center hidden space-x-8 lg:flex ${isScrolled?"text-black":"text-black"}`}>
               <a className=" hover:text-blue-500 cursor-pointer transition-colors duration-300 uppercase">
                 Home
               </a>
@@ -420,7 +420,7 @@ const Header = () => {
             </div>
 
             {/* Icon Menu Section */}
-            <div className={`hidden lg:flex items-center space-x-5 ${isScrolled?"text-black":"text-white"}`}>
+            <div className={`hidden lg:flex items-center space-x-5 ${isScrolled?"text-black":"text-black"}`}>
               <a className=" hover:text-blue-500 cursor-pointer transition-colors duration-300 flex items-center">
                 <svg
                   className="fill-current h-5 w-5 mr-2 mt-0.5"
