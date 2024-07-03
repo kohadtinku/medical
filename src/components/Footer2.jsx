@@ -55,7 +55,7 @@ const Footer2 = () => {
           <hr class="my-6 border-gray-500" />
 
           <p class="text-center text-black text-base">
-            Copyright © 2023
+            Copyright © 2024
             All Copyrights Reserved | Design & Development by Royals WebTech Pvt. Ltd.
           </p>
         </div>
