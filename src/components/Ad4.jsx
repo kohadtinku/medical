@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -8,32 +8,41 @@ const Ad4 = () => {
   }, []);
 
   return (
-<>
-<div class="bg-gray-100 px-6 py-12 font-[sans-serif]">
-      <div class="container mx-auto p-6 bg-white rounded-lg shadow-md">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div data-aos="fade-right">
-            <img src="https://readymadeui.com/management-img.webp" alt="Image" class="rounded-md object-cover w-full h-full" />
-          </div>
-          <div data-aos="fade-down">
-            <h2 class="text-3xl font-extrabold text-purple-700 mb-4">Immerse Yourself in Creativity</h2>
-            <p class="text-gray-700 text-sm leading-6">
-              Unleash your imagination and explore a world of endless possibilities. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ul class="list-disc text-sm text-gray-700 space-y-2 pl-4 mt-6">
-              <li>Discover innovative ideas.</li>
-              <li>Create unique projects.</li>
-              <li>Collaborate with like-minded individuals.</li>
-              <li>Transform your visions into reality.</li>
-            </ul>
-            <div class="mt-6">
-              <a href="javascript:void(0);" class="text-purple-600 text-sm font-semibold hover:underline">Get Started</a>
+    <>
+      <div className="bg-gray-100 px-6 py-12 font-[sans-serif]">
+        <div className="container mx-auto p-6 bg-white rounded-lg shadow-md">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div data-aos="fade-right">
+              <img
+                src="https://readymadeui.com/management-img.webp"
+                alt="Medicine Import-Export"
+                className="rounded-md object-cover w-full h-full"
+              />
+            </div>
+            <div data-aos="fade-down">
+              <h2 className="text-3xl font-extrabold text-purple-700 mb-4">
+                Empowering Global Healthcare Solutions
+              </h2>
+              <p className="text-gray-700 text-sm leading-6">
+                At the forefront of medicine import-export, we are dedicated to bridging the gap between supply and demand, ensuring that quality healthcare products reach every corner of the globe. Our comprehensive services and expertise in logistics make us a trusted partner in the industry.
+              </p>
+              <ul className="list-disc text-sm text-gray-700 space-y-2 pl-4 mt-6">
+                <li>Secure and efficient import-export processes.</li>
+                <li>Extensive network of reliable suppliers and clients.</li>
+                <li>Compliance with international health regulations.</li>
+                <li>Customized solutions tailored to your needs.</li>
+              </ul>
+              <div className="mt-6">
+                <a href="javascript:void(0);" className="text-purple-600 text-sm font-semibold hover:underline">
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-</>  )
+    </>
+  );
 }
 
-export default Ad4
+export default Ad4;

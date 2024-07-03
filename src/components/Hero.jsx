@@ -22,7 +22,7 @@ const Hero = () => {
             </h1>
           </div>
 
-          <p className="w-[550px] font-serif text-[20px] text-white"  data-aos="fade-right">
+          <p className="w-[550px] font-serif text-[20px] text-gray-700"  data-aos="fade-right">
           In an increasingly globalized world, the demand for high-quality pharmaceutical products has never been greater. As a leading pharmaceutical exporter, we are dedicated to delivering innovative, safe, and effective medicines to healthcare providers and patients worldwide.
           </p>
         </div>

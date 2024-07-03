@@ -1,16 +1,20 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Import_Export = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <div class="bg-[#F7F7F7] text-[#333] font-[sans-serif] c_import">
         <div class="max-w-6xl mx-auto py-16 px-4">
-          <h2 class="text-4xl font-extrabold text-center mb-16 text-white">
+          <h2 class="text-4xl font-extrabold text-center mb-16 text-white" data-aos="zoom-in">
             Discover Our Exclusive Features
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-md:max-w-md mx-auto">
-            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
-              <div class="p-6">
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg" data-aos="fade-down">
+              <div class="p-6" >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -41,7 +45,7 @@ const Import_Export = () => {
               </div>
             </div>
 
-            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg" data-aos="fade-down">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +93,7 @@ const Import_Export = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg">
+            <div class="bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-300 rounded-lg overflow-hidden shadow-lg" data-aos="fade-down">
               <div class="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

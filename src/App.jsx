@@ -1,12 +1,23 @@
-import React from 'react'
-import Home from './pages/Home'
+import React, { useEffect, useState } from "react";
+import Home from "./pages/Home";
+import Loader from "./pages/Loader";
 
 const App = () => {
-  return (
-<>
-  {/* <h1>hii</h1> */}
-  <Home/>
-</>  )
-}
+  const [loading, setLoading] = useState(true);
 
-export default App
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 1000); 
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return (
+    <>
+      {loading ? <Loader /> : <Home />}
+    </>
+  );
+};
+
+export default App;

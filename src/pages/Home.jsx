@@ -28,16 +28,16 @@ const Home = () => {
       {/* <Ad2 /> */}
       <Stats />
       <Import_Export/>
+      <Testimonial1/>
       <Feature />
       {/* <HeroSlider /> */}
-      <Testimonial1/>
-      <Ad />
-      <Info />
+      {/* <Ad /> */}
+      {/* <Info /> */}
       <Ad4 />
       <Testimonial />
-      <Stats1 />
+      {/* <Stats1 /> */}
       <Blog />
-      <Ad3 />
+      {/* <Ad3 /> */}
       <Contact />
       <Footer />
     </>

@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img from '../assets/med1.jpg'
+import back from '../assets/back4.jpg'
+
 const Feature = () => {
     useEffect(() => {
         AOS.init({ duration: 1500 });
@@ -8,12 +11,12 @@ const Feature = () => {
     
   return (
 <>
-<div class="max-w-6xl mx-auto text-[#333] font-[sans-serif] py-10 ">
+<div class=" mx-auto text-white text-4xl w-full font-[sans-serif] py-10 " style={{ backgroundImage: `url(${back})`, height:"100%",width:"100%" }}>
       <div class="text-center max-w-2xl mx-auto" data-aos="zoom-in">
-        <h2 class="text-3xl font-extrabold text-center mb-4" >Our Exclusive Features</h2>
+        <h2 class="text-4xl font-extrabold text-center mb-4" >Our Exclusive Features</h2>
         <p class="text-sm">Unlock a world of possibilities with our exclusive features. Explore how our unique offerings can transform your journey and empower you to achieve more.</p>
       </div>
-      <div class="mt-14 bg-gray-50 lg:p-10 p-6 rounded-md">
+      <div class="mt-14 bg-transparent lg:p-10 p-6 rounded-md">
         <div class="grid md:grid-cols-2 items-center gap-16">
           <div data-aos="fade-right">
             <h3 class="text-2xl font-extrabold mb-4">Customization</h3>
@@ -45,7 +48,7 @@ const Feature = () => {
               </li>
             </ul>
           </div>
-          <img src="https://readymadeui.com/cardImg.webp" class="w-full object-contain rounded-md" data-aos="fade-down"/>
+          <img src={img} class="w-full object-contain rounded-md" data-aos="fade-down"/>
         </div>
       </div>
     </div>
