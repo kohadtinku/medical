@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img from '../assets/med.jpg';
 
 const Ad4 = () => {
   useEffect(() => {
@@ -14,9 +15,10 @@ const Ad4 = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div data-aos="fade-right">
               <img
-                src="https://readymadeui.com/management-img.webp"
+                src={img}
                 alt="Medicine Import-Export"
-                className="rounded-md object-cover w-full h-full"
+                className="rounded-md object-cover w-full md:w-[700px] h-[300px] md:h-[400px]"
+                style={{ maxWidth: '100%' }} // Ensures image doesn't exceed container width
               />
             </div>
             <div data-aos="fade-down">
