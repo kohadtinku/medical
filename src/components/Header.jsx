@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from "react";
 import Top from "./Top";
 import bg from "../assets/bg.png";
@@ -70,8 +68,16 @@ const Header = () => {
                 Home
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
+              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
+                About Us
+                <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+              </a>
               <a className="cursor-pointer uppercase transition-colors duration-300 hover:text-blue-600 relative">
                 Services
+                <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
+              </a>
+              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
+                Blog
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
               <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
@@ -80,14 +86,6 @@ const Header = () => {
               </a>
               <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 h  relative">
                 Contact Us
-                <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
-              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
-                Blog
-                <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
-              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
-                About Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
             </div>
@@ -186,20 +184,20 @@ const Header = () => {
               <a className="text-black hover:text-blue-500 cursor-pointer transition-colors duration-300 uppercase">
                 Home
               </a>
+              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
+                About Us
+              </a>
               <a className="text-black cursor-pointer transition-colors duration-300 uppercase hover:text-blue-600">
                 Services
+              </a>
+              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
+                Blog
               </a>
               <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
                 Products
               </a>
               <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
                 Contact Us
-              </a>
-              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
-                Blog
-              </a>
-              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
-                About Us
               </a>
             </div>
           </div>
