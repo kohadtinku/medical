@@ -12,7 +12,7 @@ const Blog = () => {
 
   return (
 <>
-<div class="bg-white font-[sans-serif] my-4 mt-10 expo ">
+<div class="bg-slate-50 py-5 font-[sans-serif] my-4 mt-10 expo ">
       <div class="max-w-5xl mx-auto">
         <div class="text-center">
           <h2 class="text-3xl font-extrabold text-[#333] inline-block relative after:absolute after:w-4/6 after:h-1 after:left-0 after:right-0 after:-bottom-4 after:mx-auto after:bg-pink-400 after:rounded-full" data-aos="zoom-in">MEDICINES</h2>
