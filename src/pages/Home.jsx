@@ -28,6 +28,7 @@ const Home = () => {
       {/* <Ad2 /> */}
       <Stats />
       <Import_Export/>
+      <Blog />
       <Testimonial1/>
       <Feature />
       {/* <HeroSlider /> */}
@@ -36,7 +37,6 @@ const Home = () => {
       <Ad4 />
       <Testimonial />
       {/* <Stats1 /> */}
-      <Blog />
       {/* <Ad3 /> */}
       <Contact />
       <Footer />

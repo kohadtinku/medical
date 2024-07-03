@@ -362,7 +362,7 @@ const Header = () => {
           {/* Navbar */}
           <nav
             className={`flex justify-between py-4  backdrop-blur-md z-50 shadow-md w-full fixed top-0 left-0 right-0 px-4 lg:px-8 ${
-              isScrolled ? "bg-slate-300" : ""
+              isScrolled ? "bg-white" : ""
             }`}
           >
             {/* Logo Container */}
