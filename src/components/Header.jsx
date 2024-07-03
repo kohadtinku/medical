@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Top from "./Top";
-import bg from "../assets/bg.png";
+import bg from "../assets/logo_cordium.png";
 
 const Header = () => {
   const [percent, setPercent] = useState(0);

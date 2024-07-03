@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/bg.png'
+import logo from '../assets/logo_cordium.png'
 const Footer2 = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Footer2 = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  class="w-16 "
+                  class="w-24"
                 />
               </a>
             </div>

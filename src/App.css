@@ -439,7 +439,7 @@
 }
 
 .c_import {
-  background: url('./assets/back2.jpg');
+  background: url('./assets//import_export.jpg');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -564,4 +564,53 @@
   right: -90%;
   height: 90px;
   animation: roadAnimation 1.4s linear infinite;
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.swiper-slide .img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 90vh; /* Adjusted height for smaller screens */
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: white;
+  font-size: 25px;
+}
+
+.swiper-wrapper {
+  max-height: 100vh; /* Adjusted height for smaller screens */
+  object-fit: cover;
+}
+
+@media screen and (max-width: 425px) {
+  .mySwiper {
+    height: 40vh; /* Adjusted height for smaller screens */
+  }
+  .custom_swiper{
+    height:"fit-content" ;
+  }
 }

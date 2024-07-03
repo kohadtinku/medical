@@ -18,6 +18,7 @@ import Ad4 from "../components/Ad4";
 import Testimonial1 from "../components/Testimonial1";
 import Import_Export from "../components/Import_Export";
 import Footer2 from "../components/Footer2";
+import MainSlider from "../components/MainSlider";
 
 const Home = () => {
   return (
@@ -25,11 +26,12 @@ const Home = () => {
       {/* <Top /> */}
       <Header />
       {/* <Top/> */}
-      <Hero />
+      <MainSlider/>
+      {/* <Hero /> */}
       {/* <Ad2 /> */}
       <Stats />
       <Import_Export/>
-      <Blog />
+      {/* <Blog /> */}
       <Testimonial1/>
       <Feature />
       {/* <HeroSlider /> */}
