@@ -7,8 +7,8 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div class="mt-4 font-[sans-serif] max-w-6xl max-md:max-w-lg  py-10 mb-20 mx-10 px-10">
-      <div class="max-w-2xl" data-aos="fade-down">
+    <div class="mt-4 font-[sans-serif] py-10 mb-20 px-10  w-full">
+      <div class=" flex flex-col justify-center" data-aos="fade-down">
         <h2 class="text-gray-800 text-3xl font-extrabold">
           What our happy client say
         </h2>
@@ -19,7 +19,7 @@ const Testimonial = () => {
         </p>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6 max-md:justify-center mt-12">
+      <div class="grid md:grid-cols-3 gap-6 max-md:justify-center mt-12 m-auto w-full">
         <div class="border border-gray-300 lg:p-6 p-4 rounded-xl bg-white relative"  data-aos="fade-right">
           <div class="flex items-center">
             <img

@@ -17,6 +17,7 @@ import Blog from "../components/Blog";
 import Ad4 from "../components/Ad4";
 import Testimonial1 from "../components/Testimonial1";
 import Import_Export from "../components/Import_Export";
+import Footer2 from "../components/Footer2";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       {/* <Ad3 /> */}
       <Contact />
       <Footer />
+      <Footer2/>
     </>
   );
 };
