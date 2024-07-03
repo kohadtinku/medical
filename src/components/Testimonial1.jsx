@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img from '../assets/D_med.jpg';
+import img from '../assets/d1.png';
 import back from '../assets/bg_dir.jpg';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,7 +10,7 @@ const Testimonial1 = () => {
   }, []);
   return (
     <>
-      <div className="bg-[#e0f2f2] w-full font-[sans-serif] py-10">
+      <div className="bg-[#e0f2f2] w-full font-[sans-serif] py-10 flex flex-col justify-between items-center text-start">
         <div className="grid md:grid-cols-2 items-center md:max-h-[475px] overflow-hidden">
           <div className="p-8" data-aos="fade-right">
             <h1 className="sm:text-4xl text-2xl font-extrabold text-black">
