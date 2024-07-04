@@ -42,8 +42,7 @@ const Home = () => {
       {/* <Stats1 /> */}
       {/* <Ad3 /> */}
       <Contact />
-      <Footer />
-      <Footer2/>
+     
     </>
   );
 };

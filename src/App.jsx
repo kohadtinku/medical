@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Loader from "./pages/Loader";
 import Header from "./components/Header";
 import Services from "./pages/Services";
+import Footer from "./components/Footer";
+import Footer2 from "./components/Footer2";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +29,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
           </Routes>
+          <Footer />
+          <Footer2/>
         </BrowserRouter>
       )}
     </>

@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Footer = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
 
         <div
           className="bg-[#dddddd] flex px-2 py-1.5 rounded-full text-left mt-10"
-          data-aos="fade-down"
+       
         >
           <input
             type="email"
@@ -43,7 +43,7 @@ const Footer = () => {
       <hr className="border-gray-300 my-12" />
 
       <div className="grid max-sm:grid-cols-1 max-lg:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div data-aos="fade-down">
+        <div >
           <h4 className="text-lg font-bold mb-6 text-gray-800">About Us</h4>
           <p className="text-gray-500 mb-2 text-sm">
           We are dedicated to facilitating the global supply chain of medical
@@ -52,7 +52,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div data-aos="fade-down">
+        <div >
           <h4 className="text-lg font-bold mb-6 text-gray-800">Services</h4>
           <ul className="space-y-4">
             <li>
@@ -90,7 +90,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div data-aos="fade-down">
+        <div >
           <h4 className="text-lg font-bold mb-6 text-gray-800">Resources</h4>
           <ul className="space-y-4">
             <li>
@@ -128,7 +128,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div data-aos="fade-down">
+        <div >
           <h4 className="text-lg font-bold mb-6 text-gray-800">Contact Us</h4>
           <ul className="space-y-4">
             <li>
