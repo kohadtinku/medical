@@ -97,7 +97,7 @@ const Contact = () => {
                 />
               </svg>
               <a href="javascript:void(0)" class="text-sm ml-4">
-                <strong>info@example.com</strong>
+                <strong>connect@cordiumpharma.com</strong>
               </a>
             </li>
             <li class="flex items-center text-blue-600">
@@ -114,7 +114,7 @@ const Contact = () => {
                 ></path>
               </svg>
               <a href="javascript:void(0)" class="text-sm ml-4">
-                <strong>+158 996 888</strong>
+                <strong>9595880770</strong>
               </a>
             </li>
           </ul>
