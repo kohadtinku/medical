@@ -102,14 +102,13 @@ const Header = () => {
                 Products
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
-              <a
-                href="#"
+              <Link to='/contact'
                 className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 h relative"
                 onClick={closeSidebar}
               >
                 Contact Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
+              </Link>
             </div>
 
             {/* Hamburger Icon for smaller screens */}
@@ -240,13 +239,12 @@ const Header = () => {
               >
                 Products
               </a>
-              <a
-                href="#"
+              <Link to='/contact'
                 className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
                 onClick={closeSidebar}
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>

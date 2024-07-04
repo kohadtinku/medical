@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import "../App.css";
-import img from "../assets/import_export.jpg";
+import img from "../assets/t-med.jpg";
+import img1 from "../assets/glob.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Services = () => {
     useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1500,once:true });
   }, []);
   return (
     <>
@@ -20,7 +21,7 @@ const Services = () => {
                 <h1 className="text-4xl font-bold" data-aos='zoom-in'>Our Services</h1>
 
                 <div class="mt-8">
-                  <p class="text-1xl font-semibold text-[#333]" data-aos='fade-right'>
+                  <p class="text-1xl font-semibold text-[#333]" data-aos='fade-down'>
                     We specialize in the import and export of high-quality
                     pharmaceuticals, ensuring safe and timely delivery across
                     the globe. Our expert team manages every aspect of the
@@ -36,10 +37,10 @@ const Services = () => {
             <div class="bg-white font-[sans-serif] p-4">
               <div class="max-w-7xl mx-auto">
                 <div class="text-center max-w-xl mx-auto">
-                  <h2 class="text-3xl font-extrabold text-[#333] inline-block" data-aos='fade-left'>
+                  <h2 class="text-3xl font-extrabold text-[#333] inline-block" data-aos='zoom-in'>
                     IMPORT-EXPORT MEDICINE INSIGHTS
                   </h2>
-                  <p class="text-gray-600 text-1xl mt-6">
+                  <p class="text-gray-600 text-1xl mt-6" data-aos='zoom-in'>
                     Stay informed with the latest trends, insights, and updates
                     in the import-export medicine industry. Explore our curated
                     articles to gain valuable knowledge and stay ahead in the
@@ -49,7 +50,7 @@ const Services = () => {
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 max-md:max-w-lg mx-auto">
                   <div class="bg-white cursor-pointer rounded overflow-hidden group relative before:absolute before:inset-0 before:z-10 before:bg-black before:opacity-50">
                     <img
-                      src="https://readymadeui.com/Imagination.webp"
+                      src={img}
                       alt="Global Medicine Market"
                       class="w-full h-96 object-cover group-hover:scale-110 transition-all duration-300"
                     />
@@ -89,7 +90,7 @@ const Services = () => {
                   </div>
                   <div class="bg-white cursor-pointer rounded overflow-hidden group relative before:absolute before:inset-0 before:z-10 before:bg-black before:opacity-50">
                     <img
-                      src="https://readymadeui.com/prediction.webp"
+                      src={img1}
                       alt="Future Trends"
                       class="w-full h-96 object-cover group-hover:scale-110 transition-all duration-300"
                     />

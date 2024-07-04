@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
+import Main_Contact from "./pages/Main_Contact";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Main_Contact />} />
           </Routes>
           <Footer />
           <Footer2/>
