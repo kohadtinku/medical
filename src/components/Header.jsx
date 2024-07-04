@@ -17,8 +17,6 @@ const Header = () => {
         document.documentElement.clientHeight;
       const scrolled = Math.round((winScroll / height) * 100);
       setPercent(scrolled);
-
-      // Update isScrolled state
       setIsScrolled(winScroll > 400);
     };
 
@@ -28,6 +26,10 @@ const Header = () => {
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
+  };
+
+  const closeSidebar = () => {
+    setSidebarOpen(false); // Close sidebar
   };
 
   return (
@@ -50,7 +52,7 @@ const Header = () => {
             <div className="flex items-center border-r-black">
               <a className="cursor-pointer">
                 <h3 className="text-2xl font-medium text-blue-500">
-                  <Link to="/">
+                  <Link to="/" onClick={closeSidebar}>
                     <img
                       className="h-16 object-cover"
                       src={bg}
@@ -70,27 +72,41 @@ const Header = () => {
               <Link
                 to="/"
                 className="hover:text-blue-500 cursor-pointer uppercase relative transition-colors duration-300"
+                onClick={closeSidebar}
               >
                 Home
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </Link>
-              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
+              <a
+                href="#"
+                className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative"
+                onClick={closeSidebar}
+              >
                 About Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
               <Link
                 to="/services"
                 className="cursor-pointer uppercase transition-colors duration-300 hover:text-blue-600 relative"
+                onClick={closeSidebar}
               >
                 Services
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </Link>
-            
-              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
+
+              <a
+                href="#"
+                className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative"
+                onClick={closeSidebar}
+              >
                 Products
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
-              <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 h  relative">
+              <a
+                href="#"
+                className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 h relative"
+                onClick={closeSidebar}
+              >
                 Contact Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
@@ -125,7 +141,11 @@ const Header = () => {
                 isScrolled ? "text-black" : "text-black"
               }`}
             >
-              <a className=" hover:text-blue-500 cursor-pointer transition-colors duration-300 flex items-center">
+              <a
+                href="#"
+                className=" hover:text-blue-500 cursor-pointer transition-colors duration-300 flex items-center"
+                onClick={closeSidebar}
+              >
                 <svg
                   className="fill-current h-5 w-5 mr-2 mt-0.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +159,11 @@ const Header = () => {
                 </svg>
                 Register
               </a>
-              <a className=" cursor-pointer transition-colors duration-300 font-semibold hover:text-blue-600 flex items-center">
+              <a
+                href="#"
+                className=" cursor-pointer transition-colors duration-300 font-semibold hover:text-blue-600 flex items-center"
+                onClick={closeSidebar}
+              >
                 <svg
                   className="fill-current h-5 w-5 mr-2 mt-0.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -190,23 +214,37 @@ const Header = () => {
               <Link
                 to="/"
                 className="text-black hover:text-blue-500 cursor-pointer transition-colors duration-300 uppercase"
+                onClick={closeSidebar}
               >
                 Home
               </Link>
-              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
+              <a
+                href="#"
+                className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
+                onClick={closeSidebar}
+              >
                 About Us
               </a>
               <Link
                 to="/services"
                 className="text-black cursor-pointer transition-colors duration-300 uppercase hover:text-blue-600"
+                onClick={closeSidebar}
               >
                 Services
               </Link>
-             
-              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
+
+              <a
+                href="#"
+                className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
+                onClick={closeSidebar}
+              >
                 Products
               </a>
-              <a className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300">
+              <a
+                href="#"
+                className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
+                onClick={closeSidebar}
+              >
                 Contact Us
               </a>
             </div>
