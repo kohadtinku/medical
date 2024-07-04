@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Top from "./Top";
 import bg from "../assets/logo_cordium.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [percent, setPercent] = useState(0);
@@ -49,11 +50,14 @@ const Header = () => {
             <div className="flex items-center border-r-black">
               <a className="cursor-pointer">
                 <h3 className="text-2xl font-medium text-blue-500">
+                <Link to='/'>
+
                   <img
                     className="h-16 object-cover"
                     src={bg}
                     alt="Store Logo"
                   />
+                </Link>
                 </h3>
               </a>
             </div>
@@ -72,10 +76,10 @@ const Header = () => {
                 About Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>
-              <a className="cursor-pointer uppercase transition-colors duration-300 hover:text-blue-600 relative">
+              <Link to='/services' className="cursor-pointer uppercase transition-colors duration-300 hover:text-blue-600 relative">
                 Services
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
+              </Link>
               <a className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative">
                 Blog
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>

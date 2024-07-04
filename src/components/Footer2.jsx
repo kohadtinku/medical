@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/logo_cordium.png'
+import { Link } from "react-router-dom";
 const Footer2 = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Footer2 = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  class="w-24"
+                  class="w-32"
                 />
               </a>
             </div>
@@ -34,12 +35,12 @@ const Footer2 = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
+                <Link to='/services'
+            
                   class="text-black hover:underline text-base"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
                 <a

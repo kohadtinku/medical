@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       {/* <Top /> */}
-      <Header />
+  
       {/* <Top/> */}
       <MainSlider/>
       {/* <Hero /> */}
