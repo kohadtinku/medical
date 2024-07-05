@@ -54,7 +54,7 @@ const Header = () => {
                 <h3 className="text-2xl font-medium text-blue-500">
                   <Link to="/" onClick={closeSidebar}>
                     <img
-                      className="h-16 object-cover"
+                      className="h-16 object-contain"
                       src={bg}
                       alt="Store Logo"
                     />
