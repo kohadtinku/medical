@@ -121,12 +121,13 @@ const Contact = () => {
         </div>
         <div class="z-10 relative h-full max-md:min-h-[250px] custom_map">
           <iframe className="custom_map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14882.82315757389!2d79.06278328203923!3d21.16410369882666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0fcf85ee143%3A0x8a9261908197e622!2sSadar%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1719575985184!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6938970414976!2d79.0693269!3d21.204315599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c14c486be0ab%3A0x4c546dfd37bd21bf!2sCordium%20pharmaceuticals%20private%20limited!5e0!3m2!1sen!2sin!4v1720162676790!5m2!1sen!2sin"
             style={{ border: 0, width: 600, height: 700 }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+
         </div>
       </div>
     </>
