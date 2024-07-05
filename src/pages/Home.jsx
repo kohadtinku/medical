@@ -17,32 +17,20 @@ import Blog from "../components/Blog";
 import Ad4 from "../components/Ad4";
 import Testimonial1 from "../components/Testimonial1";
 import Import_Export from "../components/Import_Export";
+
 import Footer2 from "../components/Footer2";
 import MainSlider from "../components/MainSlider";
 
 const Home = () => {
   return (
     <>
-      {/* <Top /> */}
-  
-      {/* <Top/> */}
-      <MainSlider/>
-      {/* <Hero /> */}
-      {/* <Ad2 /> */}
-      <Stats />
-      <Import_Export/>
-      {/* <Blog /> */}
-      <Testimonial1/>
+      <MainSlider />
+      <Import_Export />
+      <Testimonial1 />
       <Feature />
-      {/* <HeroSlider /> */}
-      {/* <Ad /> */}
-      {/* <Info /> */}
       <Ad4 />
       <Testimonial />
-      {/* <Stats1 /> */}
-      {/* <Ad3 /> */}
       <Contact />
-     
     </>
   );
 };

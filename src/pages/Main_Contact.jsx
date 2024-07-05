@@ -12,7 +12,7 @@ const Main_Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 items-start gap-4 p-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg mt-12">
-          <div className="bg-[#011c2b] rounded-lg p-6 h-full max-lg:order-1">
+          <div className="bg-gray-500 rounded-lg p-6 h-full max-lg:order-1">
             <h2 className="text-xl text-white">Contact Information</h2>
             <p className="text-sm text-gray-300 mt-4">
               Have some big idea or brand to develop and need help?
@@ -56,7 +56,7 @@ const Main_Contact = () => {
                   href="javascript:void(0)"
                   className="text-white text-sm text-gray-500 ml-4"
                 >
-                  9595880770
+                  +919595880770
                 </a>
               </li>
               <li className="flex items-center">
