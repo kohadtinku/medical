@@ -30,7 +30,7 @@ const Import_Export = () => {
                     data-original="#000000"
                   />
                 </svg>
-                <h3 class="text-xl font-semibold mb-2">Import</h3>
+                <h3 class="text-xl text-orange-600 font-bold mb-2">Import</h3>
                 <p class="text-white text-sm">
                   Importing medicines involves obtaining necessary licenses and
                   registrations from health authorities, such as an import
@@ -78,7 +78,7 @@ const Import_Export = () => {
                     />
                   </g>
                 </svg>
-                <h3 class="text-xl font-semibold mb-2">Security</h3>
+                <h3 class="text-xl text-orange-600 font-bold mb-2">Security</h3>
                 <p class="text-white text-sm">
                   Ensuring security in medicine importation involves stringent
                   regulatory compliance, including obtaining licenses and
@@ -116,7 +116,7 @@ const Import_Export = () => {
                     />
                   </g>
                 </svg>
-                <h3 class="text-xl font-semibold mb-2">Export</h3>
+                <h3 class="text-xl text-orange-600 font-bold mb-2">Export</h3>
                 <p class="text-white text-sm">
                   Ensuring security in medicine exportation involves strict
                   adherence to regulatory requirements, including obtaining

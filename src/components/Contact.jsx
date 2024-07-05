@@ -114,7 +114,7 @@ const Contact = () => {
                 ></path>
               </svg>
               <a href="javascript:void(0)" class="text-sm ml-4">
-                <strong>9595880770</strong>
+                <strong>+919595880770</strong>
               </a>
             </li>
           </ul>
