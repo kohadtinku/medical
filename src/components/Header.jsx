@@ -93,14 +93,13 @@ const Header = () => {
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </Link>
 
-              <a
-                href="#"
+              <Link to='/product'
                 className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative"
                 onClick={closeSidebar}
               >
                 Products
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
+              </Link>
               <Link to='/contact'
                 className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 h relative"
                 onClick={closeSidebar}
@@ -230,13 +229,12 @@ const Header = () => {
                 Services
               </Link>
 
-              <a
-                href="#"
+              <Link to='/product'
                 className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
                 onClick={closeSidebar}
               >
                 Products
-              </a>
+              </Link>
               <Link to='/contact'
                 className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
                 onClick={closeSidebar}
