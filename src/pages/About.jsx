@@ -22,7 +22,7 @@ const About = () => {
                 <br class="xl:hidden" />
                 <span class="text-indigo-400"> CORDIUM</span>
               </h1>
-              <p class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl" data-aos='fade-left'>
+              <p class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl" data-aos='zoom-in'>
                 M/S Cordium Pharmaceuticals Private Limited is a leading
                 pharmaceutical company dedicated to improving global health
                 through innovative and accessible medications. Since our
@@ -57,8 +57,8 @@ const About = () => {
       <div class="grid lg:grid-cols-2 gap-8 max-lg:max-w-2xl mx-auto">
         <div class="text-left">
           <h2 class="text-4xl font-extrabold mb-6" data-aos='fade-down'>ABOUT CORDIUM</h2>
-          <p class="mb-4 text-sm" data-aos='fade-right'>With a global network of partners and distribution channels, we are committed to delivering life-saving medications to patients in need, regardless of geographic location. Our dedication to excellence and innovation drives us to continuously expand our product portfolio and improve health outcomes globally.</p>
-          <p class="mb-4 text-sm" data-aos='fade-left'>Cordium Pharmaceuticals Pvt. Ltd. has a dedicated team of experienced professionals who work tirelessly to develop innovative medicines that improve patients’ lives. Their commitment to quality, affordability, and accessibility has made them a trusted name in the pharmaceutical industry</p>
+          <p class="mb-4 text-sm" data-aos='zoom-in'>With a global network of partners and distribution channels, we are committed to delivering life-saving medications to patients in need, regardless of geographic location. Our dedication to excellence and innovation drives us to continuously expand our product portfolio and improve health outcomes globally.</p>
+          <p class="mb-4 text-sm" data-aos='zoom-in'>Cordium Pharmaceuticals Pvt. Ltd. has a dedicated team of experienced professionals who work tirelessly to develop innovative medicines that improve patients’ lives. Their commitment to quality, affordability, and accessibility has made them a trusted name in the pharmaceutical industry</p>
 
           <div class="grid xl:grid-cols-3 sm:grid-cols-2 gap-8 mt-12" data-aos='zoom-in'>
             <div class="flex items-center">
@@ -109,10 +109,10 @@ const About = () => {
     
       <div class="mt-16 px-10 py-10 bg-slate-200 w-full" >
         <div class="grid md:grid-cols-2 items-center gap-16">
-          <div data-aos='fade-left'>
+          <div data-aos='zoom-in'>
             <img src={img3} class="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
           </div>
-          <div data-aos='fade-right'>
+          <div data-aos='zoom-in'>
             <h3 class="text-2xl font-extrabold mb-4">Our Vision: </h3>
             <p class="text-xl">To be a global leader in healthcare, providing innovative solutions that improve lives worldwide.</p>
             <button type="button"
@@ -120,7 +120,7 @@ const About = () => {
               Read More
             </button>
           </div>
-          <div class="max-md:order-1" data-aos='fade-left'>
+          <div class="max-md:order-1" data-aos='zoom-in'>
             <h3 class="text-2xl font-extrabold mb-4">Our Mission: </h3>
             <p class="text-xl">To make a lasting impact on global health by developing and delivering effective pharmaceuticals across diverse markets.</p>
             <button type="button"
@@ -128,7 +128,7 @@ const About = () => {
               Read More
             </button>
           </div>
-          <div data-aos='fade-right'>
+          <div data-aos='fade-down'>
             <img src={img2} class="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]" />
           </div>
         </div>
