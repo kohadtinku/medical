@@ -77,14 +77,13 @@ const Header = () => {
                 Home
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               </Link>
-              <a
-                href="#"
+              <Link to='/about'
                 className="uppercase cursor-pointer transition-colors duration-300 hover:text-blue-500 relative"
                 onClick={closeSidebar}
               >
                 About Us
                 <span className="absolute left-0 right-0 bottom-0 h-1 bg-blue-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
-              </a>
+              </Link>
               <Link
                 to="/services"
                 className="cursor-pointer uppercase transition-colors duration-300 hover:text-blue-600 relative"
@@ -217,13 +216,12 @@ const Header = () => {
               >
                 Home
               </Link>
-              <a
-                href="#"
+              <Link to='/about'
                 className="text-black uppercase hover:text-blue-500 cursor-pointer transition-colors duration-300"
                 onClick={closeSidebar}
               >
                 About Us
-              </a>
+              </Link>
               <Link
                 to="/services"
                 className="text-black cursor-pointer transition-colors duration-300 uppercase hover:text-blue-600"

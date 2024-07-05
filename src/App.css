@@ -668,3 +668,14 @@
   border-radius: 15px; /* Rounded corners */
   color: black;
 }
+
+.c_about {
+  height: 100%;
+  width: 100%;
+  background: url('./assets/back_import.jpg');
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
