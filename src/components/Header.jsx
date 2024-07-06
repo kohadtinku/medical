@@ -217,7 +217,7 @@ const Header = () => {
                 </svg>
               </button>
             </div>
-            <div className="flex flex-col p-4 space-y-4 mt-5">
+            <div className="flex flex-col p-4 space-y-4 mt-10">
               <Link
                 to="/"
                 className="text-black hover:text-blue-500 cursor-pointer transition-colors duration-300 uppercase"
