@@ -9,6 +9,7 @@ import Footer2 from "./components/Footer2";
 import Main_Contact from "./pages/Main_Contact";
 import About from "./pages/About";
 import Product from "./pages/Product";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ const App = () => {
         <Loader />
       ) : (
         <BrowserRouter>
+        <ScrollToTop/>
         <Header />
           <Routes>
             <Route path="/" element={<Home />} />
