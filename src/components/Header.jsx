@@ -19,7 +19,7 @@ const Header = () => {
         document.documentElement.clientHeight;
       const scrolled = Math.round((winScroll / height) * 100);
       setPercent(scrolled);
-      setIsScrolled(winScroll > 200);
+      setIsScrolled(winScroll > 100);
     };
 
     window.addEventListener("scroll", handleScroll);
