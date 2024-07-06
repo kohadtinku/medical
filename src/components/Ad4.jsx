@@ -5,7 +5,7 @@ import img from '../assets/med.jpg';
 
 const Ad4 = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1500,once:true });
   }, []);
 
   return (

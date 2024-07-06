@@ -7,7 +7,7 @@ import bg from '../assets/medication-d.jpg'
 
 const Feature = () => {
     useEffect(() => {
-        AOS.init({ duration: 1500 });
+        AOS.init({ duration: 1500,once:true });
       }, []);
     
   return (
@@ -49,7 +49,7 @@ const Feature = () => {
               </li>
             </ul>
           </div>
-          <img src={img} className="w-full object-contain rounded-md" data-aos="fade-down"/>
+          <img src={img} className="w-[400px] object-contain rounded-md" data-aos="fade-down"/>
         </div>
       </div>
     </div>

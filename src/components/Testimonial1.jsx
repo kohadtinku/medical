@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Testimonial1 = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1500,once:true });
   }, []);
   return (
     <>
