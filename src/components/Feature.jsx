@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import img from '../assets/med1.jpg'
 import back from '../assets/back4.jpg'
+import bg from '../assets/medication-d.jpg'
 
 const Feature = () => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const Feature = () => {
     
   return (
 <>
-<div className="mx-auto text-white text-4xl w-full font-[sans-serif] py-10" style={{ backgroundImage: `url(${back})`, height:"100%",width:"100%" }}>
+<div className="mx-auto text-white text-4xl w-full font-[sans-serif] py-10 c-feature" style={{ backgroundImage: `url(${bg})`, height:"100%",width:"100%" }}>
       <div className="text-center max-w-2xl mx-auto" data-aos="zoom-in">
         <h2 className="text-4xl font-extrabold text-center mb-4">Our Business: Medicine Import-Export</h2>
         <p className="text-sm">We specialize in the import and export of pharmaceuticals, ensuring the highest quality and compliance with global standards. Discover how our services can support your needs in the medical industry.</p>

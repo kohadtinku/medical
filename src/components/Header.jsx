@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Top from "./Top";
+// import Top from "./Top";
 // import bg from "../assets/logo_cordium.png";
 import logo from '../assets/main-logo.png'
 import logo1 from '../assets/logo-tag.jpg'

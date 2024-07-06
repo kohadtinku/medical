@@ -437,7 +437,7 @@
 }
 
 .c_import {
-  background: url("./assets//import_export.jpg");
+  background: url("./assets/handshake.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -713,3 +713,20 @@
 
   }
 }
+
+
+.c-feature{
+  background: url('./assets//medication-d.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* .c-testimonial{
+  background: url('./assets//med-d-e.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+} */
