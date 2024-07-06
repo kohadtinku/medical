@@ -25,16 +25,19 @@ const About = () => {
         <div class="relative overflow-hidden">
           <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-32 lg:px-8">
             <div class="relative z-10 text-center lg:text-left">
+            <div className="custom_about">
+
+          
               <h1
-                class="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl"
+                class="text-4xl tracking-tight leading-10 font-extrabold w-[27vw] text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl"
                 data-aos="zoom-in"
               >
                 Welcome to
                 <br class="xl:hidden" />
-                <span class="text-indigo-400"> CORDIUM</span>
+                <span class="text-indigo-400 right-3"> CORDIUM</span>
               </h1>
               <p
-                class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl"
+                class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl S_P"
                 data-aos="zoom-in"
               >
                 M/S Cordium Pharmaceuticals Private Limited is a leading
@@ -43,6 +46,7 @@ const About = () => {
                 establishment in 2024, we have expanded our reach to serve
                 patients in all countries.
               </p>
+              </div>
               <div
                 class="mt-12 sm:flex sm:justify-center lg:justify-start"
                 data-aos="zoom-in"

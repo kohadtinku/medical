@@ -21,12 +21,8 @@ const Services = () => {
                 <h1 className="text-4xl font-bold" data-aos='zoom-in'>Our Services</h1>
 
                 <div class="mt-8">
-                  <p class="text-1xl font-semibold text-[#333]" data-aos='fade-down'>
-                    We specialize in the import and export of high-quality
-                    pharmaceuticals, ensuring safe and timely delivery across
-                    the globe. Our expert team manages every aspect of the
-                    supply chain, from regulatory compliance to cold chain
-                    logistics.{" "}
+                  <p class="text-1xl font-semibold text-[#333] " data-aos='fade-down'>
+                  With a global network of partners and distribution channels, we are committed to delivering life-saving medications to patients in need, regardless of geographic location. Our dedication to excellence and innovation drives us to continuously expand our product portfolio and improve health outcomes globally.
                   </p>
                 </div>
               </div>

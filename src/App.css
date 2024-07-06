@@ -403,14 +403,14 @@
     align-items: center;
     margin-top: 70px;
   }
-  .hero-content{
+  .hero-content {
     margin-right: 50%;
     width: 100%;
   }
-  .hero-title{
+  .hero-title {
     width: 100%;
   }
-  .hero-heading p{
+  .hero-heading p {
     width: 70vw;
   }
   /* .hero-heading{
@@ -425,26 +425,24 @@
     width: 70%;
     /* margin-right: 10%;
      */
-     right: 50%;
+    right: 50%;
   }
- 
 }
-
 
 @media (max-width: 425px) {
-.c_slider{
-  gap: 0;
-  font-size: 20px !important;
-}
+  .c_slider {
+    gap: 0;
+    font-size: 20px !important;
+  }
 }
 
 .c_import {
-  background: url('./assets//import_export.jpg');
+  background: url("./assets//import_export.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   z-index: -1;
 }
 /* .expo{
@@ -457,7 +455,6 @@
   z-index: -1;
 } */
 
-
 .loader {
   width: 100%;
   height: 100%;
@@ -467,7 +464,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency as needed */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Adjust transparency as needed */
   z-index: 9999; /* Ensure loader stays on top */
 }
 
@@ -566,9 +568,6 @@
   animation: roadAnimation 1.4s linear infinite;
 }
 
-
-
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -610,57 +609,54 @@
   .mySwiper {
     height: 40vh; /* Adjusted height for smaller screens */
   }
-  .custom_swiper{
-    height:"fit-content" ;
+  .custom_swiper {
+    height: "fit-content";
   }
 }
 
-.c_main{
+.c_main {
   right: 700px;
-  width: 700px; 
+  width: 700px;
   margin-left: 40px;
   padding: 20px;
 }
-.c_main1{
+.c_main1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 300px;
 }
-@media (max-width:425px ) {
-.c_main{
-  width: 200px;
-  font-size: 10px !important;
+@media (max-width: 425px) {
+  .c_main {
+    width: 200px;
+    font-size: 10px !important;
+  }
+  .c_main1 {
+    font-size: 10px;
+    height: 250px;
+    margin-left: 100px;
+  }
+  .c_p {
+    width: 320px;
+    margin-top: 10px;
+    height: 215px;
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
 }
-.c_main1{
-  font-size: 10px;
-  height: 250px;
-  margin-left: 100px;
-}
-.c_p{
-  width: 320px;
-  margin-top: 10px;
-  height: 215px;
-  font-size: 12px !important;
-  line-height: 20px !important;
-}
-  
-}
-
 
 .c_service {
-  background: url('./assets/map1.jpg') no-repeat center center fixed;
+  background: url("./assets/map1.jpg") no-repeat center center fixed;
   background-size: cover;
   /* height: 100vh;  */
   width: 100%;
   margin-top: 20px;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-
 .glassmorphism {
-  background: rgba(255, 255, 255, 0); 
+  background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(2px); /* Blur effect */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Border for glass effect */
@@ -672,10 +668,35 @@
 .c_about {
   height: 100%;
   width: 100%;
-  background: url('./assets/back_import.jpg');
+  background: url("./assets/back_import.jpg");
   background-position: center;
   background-size: cover;
   position: fixed;
   z-index: -1;
 }
 
+@media (max-width: 1024px) {
+  .S_P {
+    width: 45% !important;
+    margin-right: 53% !important;
+  }
+}
+@media (max-width: 1440px) {
+  .S_P {
+    width: 45% !important;
+    margin-right: 53% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .custom_about {
+    width: 800px;
+    text-align: start;
+  }
+  .custom_about h1{
+    display: flex;
+    gap: 10px;
+    width: 100% !important;
+    text-align: start;
+  }
+}
