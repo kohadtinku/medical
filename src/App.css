@@ -699,4 +699,13 @@
     width: 100% !important;
     text-align: start;
   }
+  .c-main2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .c-main2 img{
+    width: 100px;
+  }
 }
