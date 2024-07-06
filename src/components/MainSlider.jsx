@@ -5,7 +5,7 @@ import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import img1 from "../assets/home_bg.jpg";
 // import img2 from "../assets/home_bg1.jpg";
-import img3 from "../assets/home_bg2.jpg";
+import img3 from "../assets/family2.jpg";
 import cord from "../assets/cord.png";
 
 import AOS from "aos";
@@ -47,12 +47,12 @@ const MainSlider = () => {
 
       <div className="absolute inset-0 flex items-center justify-center text-start z-30 c_main ">
         <div
-          className="text-white p-4 bg-black bg-opacity-20 rounded-md c_main1"
+          className="text-white p-4 bg-black bg-opacity-30 rounded-md c_main1"
           data-aos="zoom-in"
         >
           <div className="c-main2">
             <h2
-              className="text-3xl flex gap-1 text-red-800 font-extrabold"
+              className="text-3xl flex gap-1 text-red-400 font-extrabold"
               data-aos="fade-right"
             >
               Welcome To
