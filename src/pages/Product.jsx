@@ -13,7 +13,7 @@ const Product = () => {
   }, []);
   return (
     <>
-      <div class="bg-white font-[sans-serif] p-4 mt-24">
+      <div class="bg-white font-[sans-serif] p-4 mt-28">
         <div class="max-w-6xl max-md:max-w-lg mx-auto">
           <div>
             <h2 class="text-3xl font-extrabold text-[#333] inline-block" data-aos='zoom-in'>

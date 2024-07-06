@@ -28,7 +28,7 @@ const MainSlider = () => {
   }, []);
 
   return (
-    <div className="relative mt-24">
+    <div className="relative mt-28">
       <Swiper
         cssMode={false}
         navigation={true}

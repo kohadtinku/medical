@@ -15,37 +15,41 @@ import icon6 from "../assets/aggregate.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../App.css";
+
+import cord from "../assets/cord.png";
+
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 1500, once: true });
   }, []);
   return (
     <>
-      <div class="bg-gradient-to-r from-green-600 to-green-700 font-[sans-serif] mt-24">
+      <div class="bg-gradient-to-r from-green-600 to-green-700 font-[sans-serif] mt-28">
         <div class="relative overflow-hidden">
           <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-32 lg:px-8">
             <div class="relative z-10 text-center lg:text-left">
-            <div className="custom_about">
+              <div className="custom_about">
+                <div className="c-about">
+                  <h1
+                    class="text-4xl tracking-tight leading-10 font-extrabold w-[27vw] text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl"
+                    data-aos="zoom-in"
+                  >
+                    Welcome to
+                    <br class="xl:hidden" />
+                    <img src={cord} className="w-[300px]" alt="" />
+                  </h1>
+                </div>
 
-          
-              <h1
-                class="text-4xl tracking-tight leading-10 font-extrabold w-[27vw] text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl"
-                data-aos="zoom-in"
-              >
-                Welcome to
-                <br class="xl:hidden" />
-                <span class="text-indigo-400 right-3"> CORDIUM</span>
-              </h1>
-              <p
-                class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl S_P"
-                data-aos="zoom-in"
-              >
-                M/S Cordium Pharmaceuticals Private Limited is a leading
-                pharmaceutical company dedicated to improving global health
-                through innovative and accessible medications. Since our
-                establishment in 2024, we have expanded our reach to serve
-                patients in all countries.
-              </p>
+                <p
+                  class="mt-4 max-w-md mx-auto text-lg font-bold font-mono text-black sm:text-xl md:mt-5 md:max-w-3xl S_P"
+                  data-aos="zoom-in"
+                >
+                  M/S Cordium Pharmaceuticals Private Limited is a leading
+                  pharmaceutical company dedicated to improving global health
+                  through innovative and accessible medications. Since our
+                  establishment in 2024, we have expanded our reach to serve
+                  patients in all countries.
+                </p>
               </div>
               <div
                 class="mt-12 sm:flex sm:justify-center lg:justify-start"
@@ -253,7 +257,10 @@ const About = () => {
           </h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-md:max-w-md mx-auto">
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in'>
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon1} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">
@@ -266,7 +273,10 @@ const About = () => {
               </div>
             </div>
 
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in' >
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon2} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">
@@ -278,7 +288,10 @@ const About = () => {
               </div>
             </div>
 
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in'>
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon3} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">
@@ -290,7 +303,10 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in'>
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon4} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">
@@ -301,7 +317,10 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in'>
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon6} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">
@@ -313,7 +332,10 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all" data-aos='zoom-in'>
+            <div
+              class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all"
+              data-aos="zoom-in"
+            >
               <div class="p-8">
                 <img src={icon5} className="w-10" alt="" />
                 <h3 class="text-gray-800 text-xl font-semibold mb-3">

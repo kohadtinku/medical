@@ -10,7 +10,7 @@ const Services = () => {
   }, []);
   return (
     <>
-      <div className="services mt-24">
+      <div className="services mt-28">
         <div className="section">
           <div class="relative h-[300px] bg-gradient-to-tr from-orange-300 to-orange-100 overflow-hidden px-6 font-[sans-serif]">
             <div class="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-blue-500"></div>

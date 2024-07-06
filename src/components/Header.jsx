@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Top from "./Top";
-import bg from "../assets/logo_cordium.png";
+// import bg from "../assets/logo_cordium.png";
+import logo from '../assets/main-logo.jpg'
+import logo1 from '../assets/logo-tag.jpg'
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -17,7 +19,7 @@ const Header = () => {
         document.documentElement.clientHeight;
       const scrolled = Math.round((winScroll / height) * 100);
       setPercent(scrolled);
-      setIsScrolled(winScroll > 400);
+      setIsScrolled(winScroll > 200);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -53,11 +55,19 @@ const Header = () => {
               <a className="cursor-pointer">
                 <h3 className="text-2xl font-medium text-blue-500">
                   <Link to="/" onClick={closeSidebar}>
+                  <div className="flex flex-col">
+
                     <img
                       className="h-16 object-contain"
-                      src={bg}
+                      src={logo}
                       alt="Store Logo"
                     />
+                    <img
+                      className="h-3 object-contain"
+                      src={logo1}
+                      alt="Store Logo"
+                    />
+                  </div>
                   </Link>
                 </h3>
               </a>
@@ -185,7 +195,7 @@ const Header = () => {
           >
             <div className="flex justify-between items-center p-4 bg-white shadow-md">
               <h3 className="text-2xl font-medium text-blue-500">
-                <img className="h-10 object-cover" src={bg} alt="Store Logo" />
+                {/* <img className="h-10 object-cover" src={bg} alt="Store Logo" /> */}
               </h3>
               <button
                 onClick={toggleSidebar}
