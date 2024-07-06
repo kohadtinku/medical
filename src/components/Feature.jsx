@@ -11,44 +11,44 @@ const Feature = () => {
     
   return (
 <>
-<div class=" mx-auto text-white text-4xl w-full font-[sans-serif] py-10 " style={{ backgroundImage: `url(${back})`, height:"100%",width:"100%" }}>
-      <div class="text-center max-w-2xl mx-auto" data-aos="zoom-in">
-        <h2 class="text-4xl font-extrabold text-center mb-4" >Our Exclusive Features</h2>
-        <p class="text-sm">Unlock a world of possibilities with our exclusive features. Explore how our unique offerings can transform your journey and empower you to achieve more.</p>
+<div className="mx-auto text-white text-4xl w-full font-[sans-serif] py-10" style={{ backgroundImage: `url(${back})`, height:"100%",width:"100%" }}>
+      <div className="text-center max-w-2xl mx-auto" data-aos="zoom-in">
+        <h2 className="text-4xl font-extrabold text-center mb-4">Our Business: Medicine Import-Export</h2>
+        <p className="text-sm">We specialize in the import and export of pharmaceuticals, ensuring the highest quality and compliance with global standards. Discover how our services can support your needs in the medical industry.</p>
       </div>
-      <div class="mt-14 bg-transparent lg:p-10 p-6 rounded-md">
-        <div class="grid md:grid-cols-2 items-center gap-16">
+      <div className="mt-14 bg-transparent lg:p-10 p-6 rounded-md">
+        <div className="grid md:grid-cols-2 items-center gap-16">
           <div data-aos="fade-right">
-            <h3 class="text-2xl font-extrabold mb-4">Customization</h3>
-            <p class="text-sm">Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad consequat id. Dolore et sint mollit in nisi tempor culpa consectetur.</p>
-            <ul class="space-y-4 mt-8">
-              <li class="flex items-center text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
-                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+            <h3 className="text-2xl font-extrabold mb-4">Our Services</h3>
+            <p className="text-sm">We provide a comprehensive range of services in the pharmaceutical import-export sector, ensuring safe and timely delivery of medical products worldwide.</p>
+            <ul className="space-y-4 mt-8">
+              <li className="flex items-center text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" className="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" />
                 </svg>
-                Customizable Styles
+                Regulatory Compliance
               </li>
-              <li class="flex items-center text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
-                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              <li className="flex items-center text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" className="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" />
                 </svg>
-                Data Export
+                Global Logistics
               </li>
-              <li class="flex items-center text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
-                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              <li className="flex items-center text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" className="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" />
                 </svg>
-                Data Validation
+                Quality Assurance
               </li>
-              <li class="flex items-center text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
-                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              <li className="flex items-center text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" className="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                  <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" />
                 </svg>
-                Security
+                Customer Support
               </li>
             </ul>
           </div>
-          <img src={img} class="w-full object-contain rounded-md" data-aos="fade-down"/>
+          <img src={img} className="w-full object-contain rounded-md" data-aos="fade-down"/>
         </div>
       </div>
     </div>
