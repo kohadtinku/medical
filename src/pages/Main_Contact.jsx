@@ -128,7 +128,7 @@ const Main_Contact = () => {
                 </a>
               </li>
               <li className="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                <a href="https://www.linkedin.com/in/cordium-pharmaceuticals-private-limited-a4a539315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <a href="https://www.linkedin.com/company/cordium-pharmaceuticals-pvt-ltd/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"
