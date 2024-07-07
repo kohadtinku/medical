@@ -8,31 +8,29 @@ const Footer2 = () => {
         <div class="py-12 px-12">
           <div class="flex flex-wrap items-center sm:justify-between max-sm:flex-col gap-6">
             <div>
-              <a href="javascript:void(0)">
+              <Link to='/'>
                 <img
                   src={logo}
                   alt="logo"
                   class="w-32"
                 />
-              </a>
+              </Link>
             </div>
 
             <ul class="flex items-center justify-center flex-wrap gap-y-2 md:justify-end space-x-6">
               <li>
-                <a
-                  href="javascript:void(0)"
+                <Link to='/'
                   class="text-black hover:underline text-base"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
+                <Link to='/about'
                   class="text-black hover:underline text-base"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to='/services'
@@ -43,12 +41,11 @@ const Footer2 = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
+                <Link to='/contact'
                   class="text-black hover:underline text-base"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

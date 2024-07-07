@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import img1 from "../assets/pills.jpg";
+import img2 from "../assets/inj.jpg";
 // import img2 from "../assets/home_bg1.jpg";
 import img3 from "../assets/family2.jpg";
 import cord from "../assets/cord.png";
@@ -43,6 +44,9 @@ const MainSlider = () => {
         <SwiperSlide>
           <img className="img" src={img1} alt="" />
         </SwiperSlide>
+        {/* <SwiperSlide>
+          <img className="img" src={img2} alt="" />
+        </SwiperSlide> */}
       </Swiper>
 
       <div className="absolute inset-0 flex items-center justify-center text-start z-30 c_main ">
