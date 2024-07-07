@@ -5,8 +5,8 @@ import img1 from "../assets/glob.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Services = () => {
-    useEffect(() => {
-    AOS.init({ duration: 1500,once:true });
+  useEffect(() => {
+    AOS.init({ duration: 1500, once: true });
   }, []);
   return (
     <>
@@ -18,11 +18,21 @@ const Services = () => {
 
             <div class="grid items-center h-full">
               <div class="text-center">
-                <h1 className="text-4xl font-bold" data-aos='zoom-in'>Our Services</h1>
+                <h1 className="text-4xl font-bold" data-aos="zoom-in">
+                  Our Services
+                </h1>
 
                 <div class="mt-8">
-                  <p class="text-1xl font-semibold text-[#333] " data-aos='fade-down'>
-                  With a global network of partners and distribution channels, we are committed to delivering life-saving medications to patients in need, regardless of geographic location. Our dedication to excellence and innovation drives us to continuously expand our product portfolio and improve health outcomes globally.
+                  <p
+                    class="text-1xl font-semibold text-[#333] "
+                    data-aos="fade-down"
+                  >
+                    With a global network of partners and distribution channels,
+                    we are committed to delivering life-saving medications to
+                    patients in need, regardless of geographic location. Our
+                    dedication to excellence and innovation drives us to
+                    continuously expand our product portfolio and improve health
+                    outcomes globally.
                   </p>
                 </div>
               </div>
@@ -33,10 +43,13 @@ const Services = () => {
             <div class="bg-white font-[sans-serif] p-4">
               <div class="max-w-7xl mx-auto">
                 <div class="text-center max-w-xl mx-auto">
-                  <h2 class="text-3xl font-extrabold text-[#333] inline-block" data-aos='zoom-in'>
+                  <h2
+                    class="text-3xl font-extrabold text-[#333] inline-block"
+                    data-aos="zoom-in"
+                  >
                     IMPORT-EXPORT MEDICINE INSIGHTS
                   </h2>
-                  <p class="text-gray-600 text-1xl mt-6" data-aos='zoom-in'>
+                  <p class="text-gray-600 text-1xl mt-6" data-aos="zoom-in">
                     Stay informed with the latest trends, insights, and updates
                     in the import-export medicine industry. Explore our curated
                     articles to gain valuable knowledge and stay ahead in the
@@ -51,7 +64,7 @@ const Services = () => {
                       class="w-full h-96 object-cover group-hover:scale-110 transition-all duration-300"
                     />
                     <div class="p-6 absolute bottom-0 left-0 right-0 z-20">
-                   \
+                      \
                       <h3 class="text-xl font-bold text-white">
                         Navigating the Global Medicine Market
                       </h3>
@@ -71,7 +84,6 @@ const Services = () => {
                       class="w-full h-96 object-cover group-hover:scale-110 transition-all duration-300"
                     />
                     <div class="p-6 absolute bottom-0 left-0 right-0 z-20">
-                   
                       <h3 class="text-xl font-bold text-white">
                         Ensuring Regulatory Compliance
                       </h3>
@@ -91,7 +103,6 @@ const Services = () => {
                       class="w-full h-96 object-cover group-hover:scale-110 transition-all duration-300"
                     />
                     <div class="p-6 absolute bottom-0 left-0 right-0 z-20">
-                  
                       <h3 class="text-xl font-bold text-white">
                         Trends and Future Predictions
                       </h3>
@@ -134,8 +145,12 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Customization</h3>
                     <p class="text-black font-semibold text-sm">
-                      Tailor our product to suit your needs Tailor our product
-                      to suit your needs.
+                      We understand that every market has unique requirements.
+                      Our customization services allow you to tailor our
+                      pharmaceutical products to meet your specific needs. From
+                      packaging to formulation, we work closely with you to
+                      ensure our products align with your regulatory standards
+                      and market preferences.
                     </p>
                   </div>
 
@@ -173,7 +188,12 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Security</h3>
                     <p class="text-black font-semibold text-sm">
-                      Your data is protected by the latest security measures.
+                      Ensuring the safety and security of your data is our top
+                      priority. We employ the latest security measures and
+                      industry best practices to protect sensitive information,
+                      ensuring compliance with regulatory standards and
+                      maintaining the integrity of your pharmaceutical
+                      transactions.
                     </p>
                   </div>
 
@@ -191,8 +211,11 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Support</h3>
                     <p class="text-black font-semibold text-sm">
-                      Tailor our product to suit your needs 24/7 customer
-                      support for all your inquiries.
+                      We are committed to providing exceptional support to our
+                      clients. Our 24/7 customer support team is available to
+                      assist you with any inquiries, ensuring seamless
+                      operations and addressing any concerns promptly. Your
+                      satisfaction is our priority.
                     </p>
                   </div>
 
@@ -220,7 +243,10 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Performance</h3>
                     <p class="text-black font-semibold text-sm">
-                      Experience blazing-fast performance with our product.
+                      Experience top-notch performance with our pharmaceutical
+                      solutions. Our products are designed to ensure efficiency
+                      and reliability, meeting the highest standards of the
+                      medicine import-export industry.
                     </p>
                   </div>
 
@@ -262,8 +288,11 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Global Reach</h3>
                     <p class="text-black font-semibold text-sm">
-                      Tailor our product to suit your needs Expand your reach
-                      with our global network.
+                      Expand your reach with our extensive global network. Our
+                      expertise in international markets enables us to deliver
+                      pharmaceutical products worldwide, ensuring that you can
+                      access and supply quality medicines to diverse regions
+                      efficiently and reliably.
                     </p>
                   </div>
 
@@ -295,8 +324,11 @@ const Services = () => {
                     </svg>
                     <h3 class="text-xl font-semibold mb-3">Communication</h3>
                     <p class="text-black font-semibold text-sm">
-                      Tailor our product to suit your needs Seamless
-                      communication for your team.
+                      Seamless communication is crucial for effective operations
+                      in the pharmaceutical industry. Our robust communication
+                      channels ensure clear and efficient interaction with your
+                      team, facilitating smooth coordination and timely updates
+                      throughout the import-export process.
                     </p>
                   </div>
                 </div>
