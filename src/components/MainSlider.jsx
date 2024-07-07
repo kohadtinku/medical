@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
-import img1 from "../assets/home_bg.jpg";
+import img1 from "../assets/pills.jpg";
 // import img2 from "../assets/home_bg1.jpg";
 import img3 from "../assets/family2.jpg";
 import cord from "../assets/cord.png";
