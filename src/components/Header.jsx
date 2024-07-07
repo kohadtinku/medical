@@ -143,7 +143,7 @@ const Header = () => {
             </div>
 
             {/* Icon Menu Section */}
-            <div
+            {/* <div
               className={`hidden lg:flex items-center space-x-5 ${
                 isScrolled ? "text-black" : "text-black"
               }`}
@@ -184,7 +184,7 @@ const Header = () => {
                 </svg>
                 Login
               </a>
-            </div>
+            </div> */}
           </nav>
 
           {/* Sidebar for smaller screens */}
