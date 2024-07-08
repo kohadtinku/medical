@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Loader from "./pages/Loader";
 import Header from "./components/Header";
@@ -27,7 +27,7 @@ const App = () => {
       {loading ? (
         <Loader />
       ) : (
-        <BrowserRouter>
+        <HashRouter>
         <ScrollToTop/>
         <Header />
           <Routes>
@@ -39,7 +39,7 @@ const App = () => {
           </Routes>
           <Footer />
           <Footer2/>
-        </BrowserRouter>
+        </HashRouter>
       )}
     </>
   );
